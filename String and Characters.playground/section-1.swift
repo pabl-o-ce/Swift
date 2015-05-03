@@ -38,7 +38,7 @@ var messageIntepolation = "\(compAssiOpe) x 2.8 = \(Double(compAssiOpe)*2.8)"
 let myh = "\u{1F496}"
 // Counting Characters
 let unusualString = "hola que mas como a estado todo"
-println("\(unusualString) tiene \(countElements(unusualString)) characters")
+println("\(unusualString) tiene \(count(unusualString)) characters")
 // Comparing String
 // equality
 let me = "loving u"

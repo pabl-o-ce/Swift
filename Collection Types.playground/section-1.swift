@@ -24,7 +24,7 @@ if emptyArray.isEmpty {
 stringArray.append("added")
 intArray += [123]
 // read an array
-println(intArray[0])
+println(intArray[0...1])
 println(stringArray[0...3])
 // insert an array in a index specific
 stringArray.insert("firstOne", atIndex: 0)

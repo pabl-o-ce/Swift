@@ -7,25 +7,29 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>65F3FF5B-DDC2-45D1-A83B-239C8B9D694E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Collection Types</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>816F27153E31DB8C732B85C0C9D38BF4625975E7</key>
 		<string>https://github.com/pablocarreraest/iOS.git</string>
+		<key>D72E99950C2662CE5F3578E89DD44140598BFBDB</key>
+		<string>https://github.com/pablocarreraest/Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Playground/Collection Types.playground</string>
+	<string>Collection Types.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>816F27153E31DB8C732B85C0C9D38BF4625975E7</key>
+		<string>../../..</string>
+		<key>D72E99950C2662CE5F3578E89DD44140598BFBDB</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/pablocarreraest/iOS.git</string>
+	<string>https://github.com/pablocarreraest/Swift.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>816F27153E31DB8C732B85C0C9D38BF4625975E7</string>
+	<string>D72E99950C2662CE5F3578E89DD44140598BFBDB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>816F27153E31DB8C732B85C0C9D38BF4625975E7</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iOS</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D72E99950C2662CE5F3578E89DD44140598BFBDB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Playground</string>
 		</dict>
 	</array>
 </dict>

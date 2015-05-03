@@ -14,7 +14,7 @@ import UIKit
 // sorted function 
 let names = ["Alice", "Pepin", "Pepe", "Locuas", "Loquito", "Bob"]
 func backwards(s1:String, s2:String)->Bool{
-    return s1 > s2
+    return s1 < s2
 }
 var reversed = sorted(names, backwards)
 // Closures expression syntax
@@ -27,5 +27,10 @@ var reversed4 = sorted(names, {s1, s2 in s1 > s2})
 // Shorthand Arguments Names refer params ($0 - $1)
 var reversed5 = sorted(names, {$0>$1})
 // Operator Functions
-var reversed6 = sorted(names, >)
+var reversed6 = sorted(names, <)
 
+// Trailing Closure
+// used to long closure functions
+var reversed7 = sorted(names){
+    $0<$1
+}

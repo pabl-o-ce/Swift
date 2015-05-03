@@ -80,7 +80,7 @@ var extraFormat = 000123.1234
 // Int(typeVariable) or any type of int
 let intConversion = Int(extraFormat)
 // Floating - Point Conversion
-extraFormat = Double(intConversion)
+extraFormat = Double(intConversion)+0.5
 // Type Aliases define an alternative name for an existing type
 typealias myint16 = Int16
 var myOwnInt16 = myint16.min
