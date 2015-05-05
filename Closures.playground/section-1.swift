@@ -34,3 +34,26 @@ var reversed6 = sorted(names, <)
 var reversed7 = sorted(names){
     $0<$1
 }
+// Capturing Values
+// the return type of the function of makeIncrementer 
+// "()->Int" means that return a function and that function return a Int value
+func makeIncrement(forIncrementer amount:Int)->()->Int{
+    var runningTotal = 0;
+    func incrementer()->Int{
+        runningTotal += amount;
+        return runningTotal;
+    }
+    return incrementer;
+}
+
+let incrementByTen = makeIncrement(forIncrementer: 10);
+incrementByTen();
+incrementByTen();
+let incrementBySeven = makeIncrement(forIncrementer: 7);
+incrementBySeven();
+incrementByTen();
+// Closures are reference types
+// Whenever you assign a function or a closure to a 
+// constant or a variable, you are actually setting 
+// that constant or variable to be a reference to the
+// function or closure.
